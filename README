@@ -1,0 +1,46 @@
+God – Pterodactyl Panel Project
+
+Project ini dibuat untuk membangun panel Pterodactyl langsung lewat GitHub Codespaces / Termux.
+Repo ini berisi source code yang akan digunakan untuk:
+
+- Setup Panel (Front-end)
+- Setup Wings (Daemon)
+- Konfigurasi Domain
+- Automasi Deploy lewat Terminal
+
+📌 Fitur yang Ditargetkan
+
+- Instalasi panel otomatis
+- Wings siap jalan tanpa ribet
+- Setting SSL otomatis
+- Support deploy dari mana saja (Termux / Codespace)
+
+🚀 Cara Mulai
+
+1. Klik tombol Code
+2. Pilih Open with Codespaces
+3. Buat Codespace baru
+4. Jalankan skrip instalasi di terminal
+
+📂 Struktur Repo
+
+- "/panel/" — file panel Pterodactyl
+- "/wings/" — file daemon
+- "install.sh" — installer utama
+- "README.md" — dokumentasi
+
+🔧 Tools yang Direkomendasikan
+
+- GitHub Codespaces
+- Termux
+- Node.js / npm (untuk beberapa task)
+- Docker (untuk Wings)
+
+🤝 Kontribusi
+
+Pull request dibuka!
+Lu bisa bantu tambahin script Wings, panel, atau fitur lainnya.
+
+📝 Lisensi
+
+Project ini open-source. Silakan dipakai bebas.
